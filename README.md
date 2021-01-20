@@ -1,6 +1,6 @@
 # CDSC_AL: A Clustering-based Data Stream Classification framework using Active Learning
 
-There are two codes with different settings for the benchmark data sterams:
+There are two codes with different settings for the benchmark data streams:
 
   1. The main_final_draft.py file is developed for arranging data streams to have abrupt drifts and run this code on 
   
