@@ -21,6 +21,6 @@ In line 11, the global variable label_ratio allows for users to change the propo
 
 Two different evaluation metrics are used: 
   
-  1. BAcc1Hist: A vector of the balanced classification accuracy values for the entire data streams
+  1. BAcc1Hist: A vector of the Balanced Classification Accuracy values for the entire data streams
   
-  2. F1Hist: A vector of the macro-average values of the F1-score for the entire data streams
+  2. F1Hist: A vector of the Macro-average values of the F1-score for the entire data streams
