@@ -1,5 +1,7 @@
 # CDSC_AL: A Clustering-based Data Stream Classification framework using Active Learning
 
+The "Supplemental Result.pdf" includes the results for comparison with semi-supervised methods using 5%, 15%, 20% labeled data. Also, the comparison results between supervised methods and CDSC-AL method with 5%, 15%, and 20% labeled data respectively.
+
 There are two codes with different settings for the benchmark data streams:
 
   1. The main_final_draft.py file is developed for arranging data streams to have abrupt drifts and run this code on 
