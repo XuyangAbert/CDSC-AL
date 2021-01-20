@@ -1075,6 +1075,5 @@ if __name__ == '__main__':
         re_T = []
     # Print out results here
     print("The mean of balanced accuracy: ", np.mean(BAcc1_Hist))
-    print("The mean of classification accuracy: ", np.mean(AccHist))
     print("The mean of F1-macro score: ", np.mean(F1Hist))
     print("Label ratio: " +str(label_ratio)+"%")
