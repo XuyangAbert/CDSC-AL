@@ -4,11 +4,11 @@ There are two codes with different settings for the benchmark data sterams:
 
   1. The main_final_draft.py file is developed for arranging data streams to have abrupt drifts and run this code on 
   
-  Synthetic-1, Synthetic-2, Sea, and Shuttle
+    Synthetic-1, Synthetic-2, Sea, and Shuttle
   
   2. The main_final_draft4.py file is developed for simulating data streams with gradual concept drift and run this code on 
   
-  KDD cup 99, Forest covtype, Gas Sensor Drift, MNIST, CiFAR-10
+    KDD cup 99, Forest covtype, Gas Sensor Drift, MNIST, CiFAR-10
 
 
 To run these two files with different datasets, go to line 17 to change the name of dataset
