@@ -265,7 +265,7 @@ def Cluster_Assign(sample, P):
     MinIndice = []
     dist_toP = squareform(pdist(np.concatenate([P, sample], axis=0)))
     for i in range(N):
-        d = dist_toP[i, :Np]
+        d = dist_toP[i+Np, :Np]
         if len(d) <= 1:
             tempD = d
             tempI = 0
