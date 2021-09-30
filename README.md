@@ -26,3 +26,6 @@ Two different evaluation metrics are used:
   1. BAcc1Hist: A vector of the Balanced Classification Accuracy values for the entire data streams
   
   2. F1Hist: A vector of the Macro-average values of the F1-score for the entire data streams
+
+For any use of this project, please refer to the following article:
+Yan, Xuyang and Homaifar, Abdollah and Sarkar, Mrinmoy and Girma, Abenezer and Tunstel, Edward. "A Clustering-based framework for Classifying Data Streams." In Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence (IJCAI2021).
