@@ -1,7 +1,9 @@
-# CDSC_AL: A Clustering-based Data Stream Classification framework using Active Learning
+## Getting Start
+CDSC_AL: A Clustering-based Data Stream Classification framework using Active Learning
 
 The "Supplemental Result.pdf" includes the results for comparison with semi-supervised methods using 5%, 15%, 20% labeled data. Also, the comparison results between supervised methods and CDSC-AL method with 5%, 15%, and 20% labeled data respectively.
 
+## Example Usage
 There are two python codes with different settings for the benchmark data streams:
 
   1. The main_final_draft.py file is developed for arranging data streams to have abrupt drifts and run this code on 
@@ -26,6 +28,14 @@ Two different evaluation metrics are used:
   1. BAcc1Hist: A vector of the Balanced Classification Accuracy values for the entire data streams
   
   2. F1Hist: A vector of the Macro-average values of the F1-score for the entire data streams
+
+## Dependencies:
+* Numpy
+* Pandas
+* Scikit-learn
+* Scipy
+
+## Citation Format
 
 For any use of this project, please refer to the following article:
 Yan, Xuyang and Homaifar, Abdollah and Sarkar, Mrinmoy and Girma, Abenezer and Tunstel, Edward. "A Clustering-based framework for Classifying Data Streams." In Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence (IJCAI2021).
